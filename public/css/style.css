@@ -8,7 +8,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
   color: #333;
-  background-color: #f8f9fa;
+  background-color: #f4f4f4;
   padding: 20px;
 }
 
@@ -17,14 +17,14 @@ body {
   margin: 0 auto;
   padding: 20px;
   background-color: #fff;
-  border-radius: 15px;
+  border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
   text-align: center;
   margin-bottom: 20px;
-  color: #4285F4;
+  color: #2c3e50;
 }
 
 .search-container {
@@ -35,14 +35,14 @@ h1 {
 input[type="text"] {
   flex: 1;
   padding: 10px;
-  border: 1px solid #4285F4;
-  border-radius: 20px 0 0 20px;
+  border: 1px solid #ddd;
+  border-radius: 24px 0 0 24px;
   font-size: 16px;
 }
 
 select {
   padding: 10px;
-  border: 1px solid #4285F4;
+  border: 1px solid #ddd;
   border-left: none;
   background-color: #f9f9f9;
   font-size: 16px;
@@ -50,24 +50,23 @@ select {
 
 button {
   padding: 10px 20px;
-  background-color: #4285F4;
+  background-color: #4285f4;
   color: #fff;
   border: none;
-  border-radius: 0 20px 20px 0;
+  border-radius: 0 24px 24px 0;
   cursor: pointer;
   font-size: 16px;
   transition: background-color 0.3s;
 }
 
 button:hover {
-  background-color: #357ABD;
+  background-color: #357abd;
 }
 
 .tips {
-  background-color: #F4B400;
-  color: #000;
+  background-color: #f0f0f0;
   padding: 15px;
-  border-radius: 12px;
+  border-radius: 4px;
   margin-bottom: 20px;
 }
 
@@ -85,9 +84,9 @@ button:hover {
 }
 
 .article-card {
-  background-color: #ffffff;
-  border: 1px solid #4285F4;
-  border-radius: 12px;
+  background-color: #eaeaeac3;
+  border: 1px solid #e2f0ba;
+  border-radius: 4px;
   padding: 15px;
   margin-bottom: 20px;
   transition: transform 0.3s;
@@ -105,11 +104,11 @@ button:hover {
 
 .article-card h2 a {
   text-decoration: none;
-  color: #DB4437;
+  color: #2c3e50;
 }
 
 .article-card h2 a:hover {
-  color: #B31412;
+  color: #3498db;
 }
 
 .source {
@@ -125,7 +124,7 @@ button:hover {
 .read-more {
   display: inline-block;
   padding: 8px 15px;
-  background-color: #0F9D58;
+  background-color: #34a853;
   color: #fff;
   text-decoration: none;
   border-radius: 20px;
@@ -134,13 +133,13 @@ button:hover {
 }
 
 .read-more:hover {
-  background-color: #0B8043;
+  background-color: #2d8745;
 }
 
 .back-button {
   display: inline-block;
   padding: 8px 15px;
-  background-color: #DB4437;
+  background-color: #ea4335;
   color: #fff;
   text-decoration: none;
   border-radius: 20px;
@@ -149,18 +148,18 @@ button:hover {
 }
 
 .back-button:hover {
-  background-color: #B31412;
+  background-color: #d33426;
 }
 
 .search-info {
   margin-bottom: 20px;
   padding: 10px;
   background-color: #f9f9f9;
-  border-radius: 12px;
+  border-radius: 4px;
 }
 
 .no-results {
   text-align: center;
   padding: 40px 0;
-  color: #DB4437;
+  color: #75aeb2;
 }
