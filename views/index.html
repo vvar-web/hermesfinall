@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News Aggregator</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Search News</h1>
+    
+    <form action="/news" method="GET">
+      <div class="search-container">
+        <input type="text" name="q" placeholder="Enter keyword, country code, or category">
+        <select name="type">
+          <option value="keyword">Keyword</option>
+          <option value="country">Country</option>
+          <option value="category">Category</option>
+        </select>
+        <button type="submit">Search</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
